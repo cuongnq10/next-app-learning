@@ -81,6 +81,7 @@ function ReservationCard({ booking }) {
               <span className='mt-1'>Edit</span>
             </Link>
             <DeleteReservation bookingId={id} />
+            
           </>
         ) : null}
       </div>
