@@ -10,10 +10,9 @@ import ReservationForm from './ReservationForm';
 
 async function Reservation({ cabin }) {
   const [settings, bookedDates] = await Promise.all([
-    getCabin(cabin.id),
     getSettings(),
     getBookedDatesByCabinId(cabin.id),
-  ]);
+  ]);  
   const session = await auth(); 
   return (
     <div className='grid grid-cols-2 border border-primary-800 min-h-[400px]'>

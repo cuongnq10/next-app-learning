@@ -47,7 +47,7 @@ export default function Page() {
 
       <div className='col-span-2 aspect-square relative'>
         <Image
-          src='/aobut-2.jpg'
+          src='/about-2.jpg'
           fill
           className='object-cover'
           alt='Family that manages The Wild Oasis'
